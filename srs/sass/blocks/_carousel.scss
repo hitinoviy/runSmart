@@ -1,0 +1,29 @@
+.carousel{
+    &__cont{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 81px;
+        overflow: hidden;
+    }
+    &__wrapper{
+        position: relative;
+    }
+    &__line{
+        display: flex;
+        transition: all ease 1s;
+    }
+    &__next, &__prev{
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: #fff;
+    }
+    &__next{
+        right: 0;
+    }
+    &__prev{
+        left: 0;
+    }
+}

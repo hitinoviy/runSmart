@@ -2,12 +2,7 @@
     background: #F6F6F6;
     overflow: hidden;
     color: #0D0D0D;
-    &__header{
-        font-weight: 700;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 70px;
-    }
+    min-height: 470px;
     &__wrapper{
         margin-top: 60px;
         display: flex;
@@ -31,7 +26,7 @@
         font-weight: 300;
         font-size: 14px;
         span{
-            color:red;
+            color: $main-color;
             text-decoration: underline;
         }
     }

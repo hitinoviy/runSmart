@@ -28,6 +28,7 @@ gulp.task('styles', function(){
 
 gulp.task('watch', function(){
     gulp.watch('srs/sass/**/*.+(scss|sass)', gulp.parallel('styles'))
+    gulp.watch('srs/js/*.js').on('change', browserSync.reload);
     gulp.watch('srs/*.html').on('change', browserSync.reload);
 });
 

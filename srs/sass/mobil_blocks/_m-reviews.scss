@@ -1,0 +1,14 @@
+@media (max-width:390px){
+    .reviews{
+        &-item{
+            flex-direction: column;
+            &__left{
+                margin: 0;
+            }
+            &__right{
+                text-align: center;
+            }
+        }
+
+    }
+}
